@@ -11,3 +11,11 @@ In this project we will learn how to deploy a Web API to `heroku`.
 ## Instructions
 
 Please fork this repository and follow along **using your fork** as the instructor deploys the API to `heroku`.
+
+# Deploying to Heroku
+
+- read the port from the environment.
+- define a `start` script in `package.json` that uses `node` (instead of `nodemon`) to run the server. 
+    - This is because heroku doesn't have nodemon.
+    - by default heroku will run your application with `npm start`.
+- create a new application on heroku.
