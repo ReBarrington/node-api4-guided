@@ -19,3 +19,4 @@ Please fork this repository and follow along **using your fork** as the instruct
     - This is because heroku doesn't have nodemon.
     - by default heroku will run your application with `npm start`.
 - create a new application on heroku.
+- connect to github (branch and repo): deployy > github >
